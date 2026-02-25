@@ -12,7 +12,6 @@ p {
     max-width: 600px;
     text-align: center;
     color: #b0b0b0;
-
 body {
     background-color: var(--bg-color);
     color: var(--text-main);
@@ -100,6 +99,7 @@ li {
     color: #b0b0b0;
 
 }
+
 
 
 
