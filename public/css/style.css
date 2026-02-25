@@ -8,6 +8,10 @@
     --accent-secondary: #ff007a; 
     --hover-bg: #2a2a35;
 }
+p {
+    max-width: 600px;
+    text-align: center;
+    color: #b0b0b0;
 
 body {
     background-color: var(--bg-color);
@@ -96,6 +100,7 @@ li {
     color: #b0b0b0;
 
 }
+
 
 
 
