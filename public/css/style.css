@@ -99,13 +99,6 @@ li:hover {
     background-color: var(--hover-bg);
     transform: translateX(10px); 
 }
-
-
-
-
-
-
-
 li strong {
     font-size: 1.2rem;
     color: #fff;
@@ -117,6 +110,7 @@ p {
     color: #b0b0b0;
 
 }
+
 
 
 
