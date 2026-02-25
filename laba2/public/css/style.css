@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
 
+
+
 :root {
     --bg-color: #121212;
     --card-bg: #1e1e24;
@@ -8,6 +10,10 @@
     --accent-secondary: #ff007a; 
     --hover-bg: #2a2a35;
 }
+
+
+
+
 
 body {
     background-color: var(--bg-color);
@@ -21,4 +27,16 @@ body {
     justify-content: center;
     min-height: 100vh;
     line-height: 1.6;
+}
+
+
+
+h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, var(--accent-color), var(--accent-secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+    text-align: center;
 }
