@@ -10,11 +10,11 @@ app.get('/team', (req, res) => {
     const brigadeInfo = {
         number: 5,
         students: [
-            { name: 'Ярошенко Сергій', role: '' },
+            { name: 'Ярошенко Сергій', role: 'Заточька' },
             { name: 'Плисюк Ростислав', role: 'Сокамерник' },
-            { name: 'Ковальногов Олександр', role: '' },
-            { name: 'Ковальов Михайло ', role: '' },
-            { name: 'Сивенюк Ольга', role: '' },
+            { name: 'Ковальногов Олександр', role: 'Математік' },
+            { name: 'Ковальов Михайло ', role: 'Нож' },
+            { name: 'Сивенюк Ольга', role: 'Тімлід' },
         ],
         repoLink: 'https://github.com/expressjs/express'
     };
@@ -25,6 +25,7 @@ app.get('/team', (req, res) => {
 app.listen(port, () => {
     console.log(`Сервер запущено на http://localhost:${port}`);
 });
+
 
 
 
