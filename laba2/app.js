@@ -13,7 +13,7 @@ app.get('/team', (req, res) => {
             { name: 'Ярошенко Сергій', role: 'Заточка' },
             { name: 'Плисюк Ростислав', role: 'Сокамерник' },
             { name: 'Ковальногов Олександр', role: 'Математик' },
-            { name: 'Ковальов Михайло ', role: 'Нож' },
+            { name: 'Ковальов Михайло ', role: 'Ніж' },
             { name: 'Сивенюк Ольга', role: 'Тімлід' },
         ],
         repoLink: 'https://github.com/expressjs/express'
@@ -25,6 +25,7 @@ app.get('/team', (req, res) => {
 app.listen(port, () => {
     console.log(`Сервер запущено на http://localhost:${port}`);
 });
+
 
 
 
