@@ -6,18 +6,7 @@ app.set('view engine', 'ejs');
 
 app.use(express.static('public'));
 
-app.get('/team', (req, res) => {
-    const brigadeInfo = {
-        number: 5,
-        students: [
-            { name: 'Ярошенко Сергій', role: '' },
-            { name: 'Плисюк Ростислав', role: '' },
-            { name: 'Ковальногов Олександр', role: '' },
-            { name: 'Ковальов Михайло ', role: '' },
-            { name: 'Сивенюк Ольга', role: '' },
-        ],
-        repoLink: 'https://github.com/expressjs/express'
-    };
+
 
     res.render('team', { info: brigadeInfo });
 });
@@ -25,5 +14,6 @@ app.get('/team', (req, res) => {
 app.listen(port, () => {
     console.log(`Сервер запущено на http://localhost:${port}`);
 });
+
 
 
