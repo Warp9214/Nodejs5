@@ -16,7 +16,7 @@ app.get('/team', (req, res) => {
             { name: 'Ковальов Михайло ', role: '' },
             { name: 'Сивенюк Ольга', role: '' },
         ],
-        repoLink: 'https://github.com/Warp9214/Nodejs5'
+        repoLink: 'https://github.com/expressjs/express'
     };
 
     res.render('team', { info: brigadeInfo });
