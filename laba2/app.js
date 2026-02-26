@@ -11,7 +11,7 @@ app.get('/team', (req, res) => {
         number: 5,
         students: [
             { name: 'Ярошенко Сергій', role: '' },
-            { name:
+            { name: 'Плисюк Ростислав', role: '' },
             { name: 'Ковальногов Олександр', role: '' },
             { name: 'Ковальов Михайло ', role: '' },
             { name: 'Сивенюк Ольга', role: '' },
@@ -25,4 +25,5 @@ app.get('/team', (req, res) => {
 app.listen(port, () => {
     console.log(`Сервер запущено на http://localhost:${port}`);
 });
+
 
